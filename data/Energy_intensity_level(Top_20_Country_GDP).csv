@@ -1,0 +1,401 @@
+Region,Entity,Year,Energy intensity level of primary energy (MJ/$2017 PPP GDP)
+Oceania,Australia,2000,6.16
+Oceania,Australia,2001,5.91
+Oceania,Australia,2002,5.89
+Oceania,Australia,2003,5.78
+Oceania,Australia,2004,5.65
+Oceania,Australia,2005,5.52
+Oceania,Australia,2006,5.58
+Oceania,Australia,2007,5.52
+Oceania,Australia,2008,5.53
+Oceania,Australia,2009,5.43
+Oceania,Australia,2010,5.33
+Oceania,Australia,2011,5.23
+Oceania,Australia,2012,4.98
+Oceania,Australia,2013,4.93
+Oceania,Australia,2014,4.78
+Oceania,Australia,2015,4.67
+Oceania,Australia,2016,4.54
+Oceania,Australia,2017,4.49
+Oceania,Australia,2018,4.39
+Oceania,Australia,2019,4.3
+Europe,Austria,2000,3.22
+Europe,Austria,2001,3.36
+Europe,Austria,2002,3.33
+Europe,Austria,2003,3.48
+Europe,Austria,2004,3.44
+Europe,Austria,2005,3.47
+Europe,Austria,2006,3.38
+Europe,Austria,2007,3.2
+Europe,Austria,2008,3.18
+Europe,Austria,2009,3.14
+Europe,Austria,2010,3.29
+Europe,Austria,2011,3.1
+Europe,Austria,2012,3.07
+Europe,Austria,2013,3.1
+Europe,Austria,2014,2.97
+Europe,Austria,2015,3.01
+Europe,Austria,2016,2.98
+Europe,Austria,2017,2.97
+Europe,Austria,2018,2.81
+Europe,Austria,2019,2.82
+Europe,Belgium,2000,5.51
+Europe,Belgium,2001,5.41
+Europe,Belgium,2002,5.15
+Europe,Belgium,2003,5.32
+Europe,Belgium,2004,5.15
+Europe,Belgium,2005,5.01
+Europe,Belgium,2006,4.82
+Europe,Belgium,2007,4.56
+Europe,Belgium,2008,4.68
+Europe,Belgium,2009,4.58
+Europe,Belgium,2010,4.81
+Europe,Belgium,2011,4.4
+Europe,Belgium,2012,4.19
+Europe,Belgium,2013,4.34
+Europe,Belgium,2014,4.03
+Europe,Belgium,2015,3.94
+Europe,Belgium,2016,4.12
+Europe,Belgium,2017,4.04
+Europe,Belgium,2018,3.82
+Europe,Belgium,2019,3.87
+North America,Bermuda,2000,1.52
+North America,Bermuda,2001,1.45
+North America,Bermuda,2002,1.54
+North America,Bermuda,2003,1.5
+North America,Bermuda,2004,1.51
+North America,Bermuda,2005,1.48
+North America,Bermuda,2006,1.56
+North America,Bermuda,2007,1.67
+North America,Bermuda,2008,1.51
+North America,Bermuda,2009,1.21
+North America,Bermuda,2010,1.54
+North America,Bermuda,2011,1.2
+North America,Bermuda,2012,1.08
+North America,Bermuda,2013,1.52
+North America,Bermuda,2014,1.95
+North America,Bermuda,2015,1.59
+North America,Bermuda,2016,1.83
+North America,Bermuda,2017,1.77
+North America,Bermuda,2018,1.97
+North America,Bermuda,2019,1.65
+North America,Canada,2000,9.31
+North America,Canada,2001,9.04
+North America,Canada,2002,8.77
+North America,Canada,2003,8.89
+North America,Canada,2004,8.77
+North America,Canada,2005,8.46
+North America,Canada,2006,8.25
+North America,Canada,2007,7.71
+North America,Canada,2008,7.44
+North America,Canada,2009,7.37
+North America,Canada,2010,7.16
+North America,Canada,2011,7.09
+North America,Canada,2012,7.03
+North America,Canada,2013,7.01
+North America,Canada,2014,6.99
+North America,Canada,2015,6.91
+North America,Canada,2016,7.1
+North America,Canada,2017,7.17
+North America,Canada,2018,7.1
+North America,Canada,2019,6.94
+North America,Cayman Islands,2000,1.91
+North America,Cayman Islands,2001,1.91
+North America,Cayman Islands,2002,1.96
+North America,Cayman Islands,2003,1.93
+North America,Cayman Islands,2004,1.8
+North America,Cayman Islands,2005,1.75
+North America,Cayman Islands,2006,1.69
+North America,Cayman Islands,2007,1.97
+North America,Cayman Islands,2008,2.01
+North America,Cayman Islands,2009,2.05
+North America,Cayman Islands,2010,2.11
+North America,Cayman Islands,2011,2.2
+North America,Cayman Islands,2012,2
+North America,Cayman Islands,2013,1.95
+North America,Cayman Islands,2014,1.94
+North America,Cayman Islands,2015,1.93
+North America,Cayman Islands,2016,1.84
+North America,Cayman Islands,2017,1.87
+North America,Cayman Islands,2018,1.9
+North America,Cayman Islands,2019,2.06
+Europe,Denmark,2000,2.99
+Europe,Denmark,2001,3.06
+Europe,Denmark,2002,3.01
+Europe,Denmark,2003,3.17
+Europe,Denmark,2004,2.99
+Europe,Denmark,2005,2.83
+Europe,Denmark,2006,2.93
+Europe,Denmark,2007,2.83
+Europe,Denmark,2008,2.78
+Europe,Denmark,2009,2.78
+Europe,Denmark,2010,2.89
+Europe,Denmark,2011,2.64
+Europe,Denmark,2012,2.53
+Europe,Denmark,2013,2.5
+Europe,Denmark,2014,2.32
+Europe,Denmark,2015,2.27
+Europe,Denmark,2016,2.25
+Europe,Denmark,2017,2.19
+Europe,Denmark,2018,2.14
+Europe,Denmark,2019,2
+Europe,Finland,2000,6.57
+Europe,Finland,2001,6.57
+Europe,Finland,2002,6.79
+Europe,Finland,2003,7.02
+Europe,Finland,2004,6.83
+Europe,Finland,2005,6.13
+Europe,Finland,2006,6.41
+Europe,Finland,2007,6
+Europe,Finland,2008,5.71
+Europe,Finland,2009,5.86
+Europe,Finland,2010,6.22
+Europe,Finland,2011,5.83
+Europe,Finland,2012,5.71
+Europe,Finland,2013,5.67
+Europe,Finland,2014,5.81
+Europe,Finland,2015,5.5
+Europe,Finland,2016,5.55
+Europe,Finland,2017,5.34
+Europe,Finland,2018,5.37
+Europe,Finland,2019,5.19
+Europe,Germany,2000,4
+Europe,Germany,2001,4.05
+Europe,Germany,2002,3.97
+Europe,Germany,2003,3.99
+Europe,Germany,2004,3.97
+Europe,Germany,2005,3.92
+Europe,Germany,2006,3.89
+Europe,Germany,2007,3.58
+Europe,Germany,2008,3.59
+Europe,Germany,2009,3.56
+Europe,Germany,2010,3.6
+Europe,Germany,2011,3.28
+Europe,Germany,2012,3.29
+Europe,Germany,2013,3.35
+Europe,Germany,2014,3.13
+Europe,Germany,2015,3.1
+Europe,Germany,2016,3.04
+Europe,Germany,2017,2.98
+Europe,Germany,2018,2.87
+Europe,Germany,2019,2.76
+Europe,Iceland,2000,11.18
+Europe,Iceland,2001,10.4
+Europe,Iceland,2002,10.65
+Europe,Iceland,2003,10.43
+Europe,Iceland,2004,9.57
+Europe,Iceland,2005,9.16
+Europe,Iceland,2006,10.67
+Europe,Iceland,2007,11.69
+Europe,Iceland,2008,12.92
+Europe,Iceland,2009,14.52
+Europe,Iceland,2010,15.02
+Europe,Iceland,2011,15.78
+Europe,Iceland,2012,15.24
+Europe,Iceland,2013,15.2
+Europe,Iceland,2014,14.89
+Europe,Iceland,2015,13.58
+Europe,Iceland,2016,12.07
+Europe,Iceland,2017,12.18
+Europe,Iceland,2018,12.78
+Europe,Iceland,2019,12.27
+Europe,Ireland,2000,3.12
+Europe,Ireland,2001,3.08
+Europe,Ireland,2002,2.92
+Europe,Ireland,2003,2.77
+Europe,Ireland,2004,2.67
+Europe,Ireland,2005,2.55
+Europe,Ireland,2006,2.44
+Europe,Ireland,2007,2.36
+Europe,Ireland,2008,2.45
+Europe,Ireland,2009,2.5
+Europe,Ireland,2010,2.45
+Europe,Ireland,2011,2.23
+Europe,Ireland,2012,2.23
+Europe,Ireland,2013,2.19
+Europe,Ireland,2014,1.97
+Europe,Ireland,2015,1.64
+Europe,Ireland,2016,1.69
+Europe,Ireland,2017,1.51
+Europe,Ireland,2018,1.41
+Europe,Ireland,2019,1.32
+Asia,Israel,2000,3.86
+Asia,Israel,2001,4.05
+Asia,Israel,2002,3.98
+Asia,Israel,2003,4.13
+Asia,Israel,2004,3.86
+Asia,Israel,2005,3.57
+Asia,Israel,2006,3.72
+Asia,Israel,2007,3.61
+Asia,Israel,2008,3.85
+Asia,Israel,2009,3.59
+Asia,Israel,2010,3.66
+Asia,Israel,2011,3.49
+Asia,Israel,2012,3.46
+Asia,Israel,2013,3.03
+Asia,Israel,2014,2.82
+Asia,Israel,2015,2.9
+Asia,Israel,2016,2.81
+Asia,Israel,2017,2.67
+Asia,Israel,2018,2.65
+Asia,Israel,2019,2.51
+Europe,Luxembourg,2000,3.35
+Europe,Luxembourg,2001,3.44
+Europe,Luxembourg,2002,3.44
+Europe,Luxembourg,2003,3.57
+Europe,Luxembourg,2004,3.84
+Europe,Luxembourg,2005,3.8
+Europe,Luxembourg,2006,3.57
+Europe,Luxembourg,2007,3.2
+Europe,Luxembourg,2008,3.24
+Europe,Luxembourg,2009,3.19
+Europe,Luxembourg,2010,3.24
+Europe,Luxembourg,2011,3.12
+Europe,Luxembourg,2012,3.08
+Europe,Luxembourg,2013,2.88
+Europe,Luxembourg,2014,2.66
+Europe,Luxembourg,2015,2.48
+Europe,Luxembourg,2016,2.35
+Europe,Luxembourg,2017,2.35
+Europe,Luxembourg,2018,2.37
+Europe,Luxembourg,2019,2.34
+Europe,Netherlands,2000,4.15
+Europe,Netherlands,2001,4.16
+Europe,Netherlands,2002,4.19
+Europe,Netherlands,2003,4.34
+Europe,Netherlands,2004,4.3
+Europe,Netherlands,2005,4.14
+Europe,Netherlands,2006,3.97
+Europe,Netherlands,2007,3.81
+Europe,Netherlands,2008,3.7
+Europe,Netherlands,2009,3.79
+Europe,Netherlands,2010,4.01
+Europe,Netherlands,2011,3.67
+Europe,Netherlands,2012,3.71
+Europe,Netherlands,2013,3.64
+Europe,Netherlands,2014,3.38
+Europe,Netherlands,2015,3.38
+Europe,Netherlands,2016,3.38
+Europe,Netherlands,2017,3.31
+Europe,Netherlands,2018,3.17
+Europe,Netherlands,2019,3.05
+Europe,Norway,2000,4.27
+Europe,Norway,2001,4.3
+Europe,Norway,2002,3.94
+Europe,Norway,2003,4.23
+Europe,Norway,2004,4.3
+Europe,Norway,2005,4.28
+Europe,Norway,2006,4.21
+Europe,Norway,2007,3.83
+Europe,Norway,2008,4.44
+Europe,Norway,2009,4.44
+Europe,Norway,2010,4.57
+Europe,Norway,2011,3.89
+Europe,Norway,2012,4.14
+Europe,Norway,2013,4.37
+Europe,Norway,2014,3.77
+Europe,Norway,2015,3.77
+Europe,Norway,2016,3.57
+Europe,Norway,2017,3.68
+Europe,Norway,2018,3.66
+Europe,Norway,2019,3.33
+Asia,Qatar,2000,8.92
+Asia,Qatar,2001,9.49
+Asia,Qatar,2002,10.01
+Asia,Qatar,2003,9.99
+Asia,Qatar,2004,9.88
+Asia,Qatar,2005,9.19
+Asia,Qatar,2006,8.56
+Asia,Qatar,2007,8.2
+Asia,Qatar,2008,7.16
+Asia,Qatar,2009,6.82
+Asia,Qatar,2010,6.38
+Asia,Qatar,2011,5.3
+Asia,Qatar,2012,6.97
+Asia,Qatar,2013,7.05
+Asia,Qatar,2014,6.6
+Asia,Qatar,2015,6.32
+Asia,Qatar,2016,5.88
+Asia,Qatar,2017,6.8
+Asia,Qatar,2018,6.46
+Asia,Qatar,2019,6.79
+Asia,Singapore,2000,3.46
+Asia,Singapore,2001,3.99
+Asia,Singapore,2002,3.81
+Asia,Singapore,2003,4.41
+Asia,Singapore,2004,4.82
+Asia,Singapore,2005,3.07
+Asia,Singapore,2006,3.03
+Asia,Singapore,2007,2.56
+Asia,Singapore,2008,2.9
+Asia,Singapore,2009,3.05
+Asia,Singapore,2010,2.48
+Asia,Singapore,2011,2.05
+Asia,Singapore,2012,2.31
+Asia,Singapore,2013,2.39
+Asia,Singapore,2014,2.52
+Asia,Singapore,2015,2.68
+Asia,Singapore,2016,2.66
+Asia,Singapore,2017,2.8
+Asia,Singapore,2018,2.51
+Asia,Singapore,2019,2.57
+Europe,Sweden,2000,5.54
+Europe,Sweden,2001,5.81
+Europe,Sweden,2002,5.83
+Europe,Sweden,2003,5.57
+Europe,Sweden,2004,5.54
+Europe,Sweden,2005,5.26
+Europe,Sweden,2006,4.9
+Europe,Sweden,2007,4.71
+Europe,Sweden,2008,4.7
+Europe,Sweden,2009,4.5
+Europe,Sweden,2010,4.77
+Europe,Sweden,2011,4.52
+Europe,Sweden,2012,4.59
+Europe,Sweden,2013,4.48
+Europe,Sweden,2014,4.25
+Europe,Sweden,2015,3.76
+Europe,Sweden,2016,3.96
+Europe,Sweden,2017,3.97
+Europe,Sweden,2018,3.97
+Europe,Sweden,2019,3.8
+Europe,Switzerland,2000,2.44
+Europe,Switzerland,2001,2.55
+Europe,Switzerland,2002,2.49
+Europe,Switzerland,2003,2.5
+Europe,Switzerland,2004,2.44
+Europe,Switzerland,2005,2.36
+Europe,Switzerland,2006,2.37
+Europe,Switzerland,2007,2.16
+Europe,Switzerland,2008,2.19
+Europe,Switzerland,2009,2.25
+Europe,Switzerland,2010,2.11
+Europe,Switzerland,2011,2
+Europe,Switzerland,2012,2
+Europe,Switzerland,2013,2.05
+Europe,Switzerland,2014,1.87
+Europe,Switzerland,2015,1.8
+Europe,Switzerland,2016,1.72
+Europe,Switzerland,2017,1.7
+Europe,Switzerland,2018,1.66
+Europe,Switzerland,2019,1.68
+North America,United States,2000,6.73
+North America,United States,2001,6.54
+North America,United States,2002,6.5
+North America,United States,2003,6.33
+North America,United States,2004,6.22
+North America,United States,2005,6.04
+North America,United States,2006,5.82
+North America,United States,2007,5.81
+North America,United States,2008,5.67
+North America,United States,2009,5.53
+North America,United States,2010,5.52
+North America,United States,2011,5.36
+North America,United States,2012,5.15
+North America,United States,2013,5.15
+North America,United States,2014,5.08
+North America,United States,2015,4.88
+North America,United States,2016,4.74
+North America,United States,2017,4.62
+North America,United States,2018,4.61
+North America,United States,2019,4.51
