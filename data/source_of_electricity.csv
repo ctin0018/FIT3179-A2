@@ -1,0 +1,31 @@
+Entity,Electricity_Source,Value(TWh)
+Australia,Electricity from fossil fuels (TWh),186.92
+Australia,Electricity from nuclear (TWh),0
+Australia,Electricity from renewables (TWh),63.99
+France,Electricity from fossil fuels (TWh),48.14
+France,Electricity from nuclear (TWh),353.83
+France,Electricity from renewables (TWh),125.28
+Germany,Electricity from fossil fuels (TWh),251.4
+Germany,Electricity from nuclear (TWh),64.38
+Germany,Electricity from renewables (TWh),251.48
+Iceland,Electricity from fossil fuels (TWh),0
+Iceland,Electricity from nuclear (TWh),0
+Iceland,Electricity from renewables (TWh),18.78
+India,Electricity from fossil fuels (TWh),1202.34
+India,Electricity from nuclear (TWh),44.61
+India,Electricity from renewables (TWh),315.76
+Malaysia,Electricity from fossil fuels (TWh),138.77
+Malaysia,Electricity from nuclear (TWh),0
+Malaysia,Electricity from renewables (TWh),30.54
+Nepal,Electricity from fossil fuels (TWh),0
+Nepal,Electricity from nuclear (TWh),0
+Nepal,Electricity from renewables (TWh),6.33
+Norway,Electricity from fossil fuels (TWh),2.2
+Norway,Electricity from nuclear (TWh),0
+Norway,Electricity from renewables (TWh),152.09
+United Arab Emirates,Electricity from fossil fuels (TWh),119.49
+United Arab Emirates,Electricity from nuclear (TWh),1.56
+United Arab Emirates,Electricity from renewables (TWh),5.5
+United States of America,Electricity from fossil fuels (TWh),2431.9
+United States of America,Electricity from nuclear (TWh),789.88
+United States of America,Electricity from renewables (TWh),821.4

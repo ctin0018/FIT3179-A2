@@ -1,0 +1,103 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 550,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/ZhanHong-11/FIT3179-A2/main/data/region_total_electricty_source.csv"
+    },
+    "params": [
+      {
+        "name": "Continent_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Oceania"
+          ],
+          "labels": [
+            "Show All",
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Oceania"
+          ],
+          "name": "Continent: "
+        }
+      }
+    ],
+    "transform": [
+      {
+        "filter": "Continent_selection == null || datum.Region == Continent_selection"
+      },
+      {
+        "calculate": "indexof(['Fossil Fuels', 'Renewables Energy', 'Nuclear'], datum.Electricity_source)",
+        "as": "order"
+      }
+    ],
+    "mark": {"type": "area"},
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "axis": {
+          "grid": false,
+          "tickCount": 10
+        }
+      },
+      "y": {
+        "aggregate": "sum",
+        "field": "Value",
+        "title": "Total Electricity Generation (Terawatt Hours)",
+        "stack": true
+      },
+      "color": {
+        "field": "Electricity_source",
+        "type": "nominal",
+        "title": null,
+        "scale": {
+          "domain": [
+            "Fossil Fuel",
+            "Renewable Energy",
+            "Nuclear"
+          ],
+          "range": [
+            "#a76522",
+            "#4daf1a",
+            "#F0BA12"
+          ]
+        },
+        "legend": {
+          "orient": "top",
+          "labelFontSize": 15,
+          "titleFontSize": 15
+        }
+      },
+      "stroke": {
+        "value": "black"
+      },
+      "order": {
+        "field": "order",
+        "type": "ordinal"
+      },
+      "tooltip": [
+        {
+          "field": "Electricity_source",
+          "type": "nominal",
+          "title": "Source of Electricity"
+        },
+        {
+          "field": "Year",
+          "type": "temporal",
+          "format": "%Y",
+          "title": "Year"
+        }
+      ]
+    }
+  }
