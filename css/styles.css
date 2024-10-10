@@ -1,8 +1,135 @@
-#choropleth_map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
-}
+	/* Overall Page Styling */
+	body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f4f4f9;
+	color: #333;
+	line-height: 1.6;
+	}
+
+	/* Dashboard Container */
+	.dashboard-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	}
+
+	/* Header Styling */
+	.dashboard-header {
+	text-align: center;
+	padding: 20px;
+	background-color: #2c3e50;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	}
+
+	/* Ensure Flexbox works properly */
+	.vis-container-wrapper {
+		display: flex;
+		justify-content: flex-start; /* Stick items to the left */
+		align-items: flex-start;
+		gap: 20px; /* Add minimal gap between chart and Quick Facts */
+		margin-bottom: 20px; /* Space below the container */
+	}
+	
+	/* Ensure the chart takes up the remaining space */
+	.vis-container {
+		width: 65%;  /* Chart takes a good amount of space */
+		height: 400px;
+		margin-right: 10px;
+	}
+	
+	/* Adjust the right-content (Quick Facts) width */
+	.right-content {
+		width: 50%;  /* Make sure it fits beside the chart */
+		background-color: #f9f9f9;
+		padding: 15px;
+		border: 3px solid #d3d3d3;
+	}
+	
+	/* Paragraph directly below the chart and Quick Facts */
+	.vis-paragraph {
+		width: 100%;
+		margin-top: 70px;
+		clear: both; /* Ensure it's placed below the floated elements */
+	}
+
+	/* Card and Content Styling */
+	.card {
+	background-color: white;
+	padding: 10px; /* Reduced padding for a tighter fit */
+	margin: 10px 0px; /* Adjusted margins to reduce white space */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	transition: transform 0.3s ease;
+	}
+
+	.card:hover {
+	transform: translateY(-10px);
+	}
+
+
+	.info-graphic {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	padding: 10px;
+	}
+
+	.right-content h3 {
+	font-size: 1.4rem;
+	color: #2c3e50;
+	}
+
+	.right-content ul {
+	list-style-type: none;
+	padding: 0;
+	}
+
+	.right-content ul li {
+	margin-bottom: 8px; /* Reduced margin to fit content closer */
+	font-size: 1rem;
+	color: #555;
+	font-weight: bold;
+	}
+
+	/* Typography */
+	h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	}
+
+	h1 {
+	color: #ffffff;
+	}
+
+	h2, h3 {
+	color: #2c3e50;
+	}
+
+	p {
+	font-size: 1rem;
+	margin-top: 10px;
+	line-height: 1.8;
+	}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+	.vis-container-wrapper {
+	  flex-direction: column; /* Stack vertically on smaller screens */
+	}
+  
+	.vis-container,
+	.right-content {
+	  width: 100%; /* Full width on smaller screens */
+	}
+  
+	.right-content {
+	  margin-top: 20px; /* Add space when stacked */
+	}
+  }
+
+	.small-font {
+	font-size: 0.9rem;
+	text-align: center;
+	margin-top: 20px;
+	}

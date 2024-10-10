@@ -1,67 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renewable Energy Dashboard</title>
+
+  <!-- Import PureCSS -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
+
+  <!-- Google Font for Clean Typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Scroll Animations with AOS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
+
+  <!-- Custom CSS Styles -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <!-- Vega & Vega-Lite for Visualizations -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-  
-  <!-- Import pure.css -->
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-  
-    <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <h2>2020 Global Electricity Accessibility per Country Population</h2>
+
+  <div class="dashboard-container pure-g">
+
+    <!-- Header with Overview -->
+    <div class="pure-u-1 dashboard-header" data-aos="fade-down" data-aos-once="true">
+      <h1>Renewable Energy</h1>
+      <p><b>Renewable energy</b>, harnessing sunlight, wind, and water, plays a critical role in addressing global environmental challenges. It helps mitigate <b>global warming</b> caused by <b>greenhouse gas emissions</b> and reduces dependency on <b>finite resources</b>. In <b>2021</b>, renewable energy accounted for <b>28.4%</b> of global electricity generation, according to the International Renewable Energy Agency (IRENA). However, deployment varies due to factors such as <b>policy support</b>, <b>technology costs</b>, and <b>infrastructure</b>. This dashboard explores the state of renewable energy and sustainability around the world.</p>
+    </div>
+
+    <!-- Section 1: Global Electricity Accessibility Map -->
+    <div class="pure-u-1 pure-u-md-2-3" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+      <div class="card">
+        <h2>Global Electricity Accessibility in 2020</h2>
         <div id="vis1" class="vis-container"></div>
-      </div>
-    </div>
-    <!-- end pure grid group -->
-
-    <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <h2>Renewable Energy Share vs CO2 emissions per Country (2000-2019)</h2>
-        <div id="vis2" class="vis-container"></div>
-      </div>
-    </div>
-    <!-- end pure grid group -->
-
-    <div class="pure-g">
-      <div class="pure-u-1-1 small-font">
-        <p>This visualisation is created by <a href="https://github.com/ctin0018/FIT3179-W10" target="_blank">Christopher
-            </a>. The datasource is from 
-            <a href="https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy?select=global-data-on-sustainable-energy+%281%29.csv" 
-            target=" _blank">Global Data on Sustainable Energy (2000-2020) | Kaggle</href>.</p>
+        <p>In <b>2020</b>, most countries globally achieved electricity accessibility of over <b>80%</b> for their populations. However, several countries, primarily in <b>Africa</b>, had access rates below <b>50%</b> due to insufficient infrastructure and technology.</p>
       </div>
     </div>
 
+    <!-- Section 2: Global Overview of Electricity Source (Stacked Bar) with Additional Content -->
+    <div class="pure-u-1 pure-u-md-2-3" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
+        <div class="card">
+        <h2>Global Overview of Electricity Source</h2>
+        <div class="vis-container-wrapper">
+            <div id="vis2" class="vis-container"></div>
+    
+            <!-- Quick Facts & Future Energy Mix -->
+            <div class="right-content" data-aos="fade-left" data-aos-delay="500">
+            <h3>Quick Facts</h3>
+            <ul>
+                <li><b>132 Reactors</b> in Europe contribute to 25.6% of total electricity.</li>
+                <li>South Africa relies on <b>two reactors</b> for <b>5%</b> of its electricity.</li>
+                <li>Oceania has no nuclear power use.</li>
+            </ul>
+            <h3>Future Energy Mix</h3>
+            <p>As more countries invest in renewables, the global energy mix is expected to shift significantly. Nuclear power will remain a key player in Europe and parts of Asia, while renewable sources are expected to grow exponentially.</p>
+            </div>
+        </div>
+    
+        <!-- Paragraph below the chart and Quick Facts -->
+        <p class="vis-paragraph">
+            <b>Oceania</b> is the only continent with no nuclear power use. In <b>Europe</b>, nuclear power dominates with <b>132 reactors</b> generating <b>25.6%</b> of its electricity (totaling <b>876,244 GWh</b> in 2021). <b>South Africa</b> is the only African nation with nuclear power, contributing around <b>5%</b> of its electricity via two reactors.
+        </p>
+        </div>
+    </div>
 
-<script type="text/javascript">
-  // Use correct paths for the JSON files from your GitHub repository
-  var specVis1 = "js/choropleth_map.vg.json";
-  var specVis2 = "js/bubbleplot_CO2_emission.vg.json";
+    <!-- Section 3: Low-Carbon Electricity Source (Bar Chart) -->
+    <div class="pure-u-1 pure-u-md-1-3" data-aos="fade-up" data-aos-delay="600" data-aos-once="true">
+      <div class="card">
+        <h2>Low-Carbon Electricity Source in 2020</h2>
+        <div id="vis3" class="vis-container"></div>
+        <p>This chart highlights the share of <b>low-carbon electricity</b> generated by renewables and nuclear power across various countries in <b>2020</b>.</p>
+      </div>
+    </div>
+    
+    <!-- Section 5: Energy Intensity Trends (Heatmap) -->
+    <div class="pure-u-1 pure-u-md-2-3" data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">
+        <div class="card">
+          <h2>Energy Intensity Trends Across Top 20 GDP Countries</h2>
+          <div id="vis5" class="vis-container"></div>
+          <p><b>Energy intensity</b> measures energy use per unit of economic output. Countries like <b>Iceland</b> have high energy intensity, meaning energy consumption strongly supports their GDP. By contrast, <b>Switzerland</b> and <b>Ireland</b> have low energy intensity, indicating more efficient energy use.</p>
+        </div>
+      </div>
 
-  // Embedding the choropleth map
-  vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
+    <!-- Section 4: Renewable Energy Share vs. CO2 Emissions (Bubble Plot) -->
+    <div class="pure-u-1 pure-u-md-2-3" data-aos="fade-up" data-aos-delay="800" data-aos-once="true">
+      <div class="card">
+        <h2>Renewable Energy Share vs. CO2 Emission</h2>
+        <div id="vis4" class="vis-container"></div>
+        <p>The rise in <b>renewable energy</b> share correlates with <b>lower CO2 emissions</b>. This visualization shows the relationship between <b>CO2 emissions</b>, <b>renewable energy share</b>, and <b>GDP per capita</b> from <b>2000</b> to <b>2019</b>, illustrating how economic development and energy structures influence emission patterns.</p>
+      </div>
+    </div>
 
-  // Embedding the bubbleplot
-  vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
+  </div> <!-- End of dashboard-container -->
+
+  <div class="pure-g">
+    <div class="pure-u-1-1 small-font">
+      <p>This visualization is created by <a href="https://github.com/ctin0018/FIT3179-A2" target="_blank">Christopher</a>. The datasource is from <a href="https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy?select=global-data-on-sustainable-energy+%281%29.csv" target="_blank">Kaggle</a>.</p>
+    </div>
+  </div>
+
+  <!-- AOS for Scroll Animations -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,  // Animation duration
+      offset: 100,    // Offset for scrolling animations
+      once: true      // Ensure animations only happen once
+    });
+  </script>
+
+  <!-- Vega Visualization Scripts -->
+  <script>
+    // Visualization embedding
+    var specVis1 = "js/choropleth_map.vg.json";
+    var specVis2 = "js/global_source_of_electricity.vg.json";
+    var specVis3 = "js/low_carbon_electricity_&_source.vg.json";
+    var specVis4 = "js/bubbleplot_CO2_emission.vg.json";
+    var specVis5 = "js/heatmap.vg.json";
+
+    vegaEmbed('#vis1', specVis1, { "actions": false });
+    vegaEmbed('#vis2', specVis2, { "actions": false });
+    vegaEmbed('#vis3', specVis3, { "actions": false });
+    vegaEmbed('#vis5', specVis5, { "actions": false });
+    vegaEmbed('#vis4', specVis4, { "actions": false });
   </script>
 
 </body>
+
 </html>

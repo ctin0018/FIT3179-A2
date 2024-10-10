@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 350,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ctin0018/FIT3179-A2/refs/heads/master/data/Energy_intensity_level(Top_20_Country_GDP).csv"
+  },
+  "params": [
+    {
+      "name": "select",
+      "select": {
+        "type": "point",
+        "on": "click"
+      }
+    }
+  ],
+  "mark": {"type": "rect"},
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "timeUnit": "year",
+      "title": "Year"
+    },
+    "y": {
+      "field": "Entity",
+      "type": "nominal",
+      "title": null
+    },
+    "color": {
+      "field": "Energy intensity level of primary energy (MJ/$2017 PPP GDP)",
+      "type": "quantitative",
+      "scale": {
+        "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
+      },
+      "title": ["Energy intensity level", "(MJ/$2017 PPP GDP)"]
+    },
+    "tooltip": [
+      {
+        "field": "Entity",
+        "type": "nominal",
+        "title": "Country"
+      },
+      {
+        "field": "Year",
+        "type": "ordinal",
+        "timeUnit": "year",
+        "title": "Year"
+      },
+      {
+        "field": "Energy intensity level of primary energy (MJ/$2017 PPP GDP)",
+        "type": "quantitative",
+        "title": "Energy intensity level (MJ/$2017 PPP GDP)"
+      }
+    ],
+    "stroke": {
+      "condition": {
+        "param": "select",
+        "value": "black"
+      },
+      "value": null
+    },
+    "fillOpacity": {
+      "condition": {
+        "param": "select",
+        "value": 1
+      },
+      "value": 0.5
+    }
+  }
+}
