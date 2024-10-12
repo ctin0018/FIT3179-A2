@@ -51,8 +51,8 @@
             "type": "quantitative",
             "scale": {
               "type": "linear", 
-              "domain": [100, 0],
-              "scheme": "cividis"
+              "domain": [0, 100],
+              "scheme": "greens"
             },
             "legend": {
                 "orient": "bottom",

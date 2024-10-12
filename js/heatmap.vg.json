@@ -31,7 +31,7 @@
       "field": "Energy intensity level of primary energy (MJ/$2017 PPP GDP)",
       "type": "quantitative",
       "scale": {
-        "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
+        "scheme": "blues"
       },
       "title": ["Energy intensity level", "(MJ/$2017 PPP GDP)"]
     },

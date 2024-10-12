@@ -38,13 +38,22 @@
 		height: 400px;
 		margin-right: 10px;
 	}
-	
+
+	.vis-container-map {
+		width: 65%;  /* Chart takes a good amount of space */
+		justify-content: center;
+		height: 400px;
+		margin-left: 80px;
+		margin-right: 10px;
+	}
+
 	/* Adjust the right-content (Quick Facts) width */
 	.right-content {
-		width: 50%;  /* Make sure it fits beside the chart */
+		width: 80%;  /* Make sure it fits beside the chart */
 		background-color: #f9f9f9;
 		padding: 15px;
 		border: 3px solid #d3d3d3;
+		margin-right: 20px;
 	}
 	
 	/* Paragraph directly below the chart and Quick Facts */
@@ -62,6 +71,7 @@
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
 	transition: transform 0.3s ease;
+	justify-content: center;
 	}
 
 	.card:hover {
